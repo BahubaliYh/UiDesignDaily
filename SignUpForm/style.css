@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body {
+  background-color: #F4F3FB;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+h5 {
+  font-weight: 400;
+  margin: .3rem 0rem .3rem 0rem;
+}
+
+::placeholder {
+  color: #868686;
+}
+
+.fa {
+  color: #c4b8d4;
+}
+
+.signUp-info p {
+  font-size: .7rem;
+  margin: 0;
+}
+
+.container {
+  background-color: #ffffff;
+  display: flex;
+  padding: 2rem;
+  font-weight: 300;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  flex-wrap: wrap;
+}
+
+.signUp-info {
+  /* background: linear-gradient(to top left, #735FCD 38%, #AA87E3 100%); */
+  background-image: linear-gradient(to left top, #735fcd, #7962cf, #7f66d2, #8469d4, #8a6dd7, #9072d9, #9778dc, #9d7dde, #a686e1, #ae8fe4, #b798e7, #bfa1ea);
+  color: rgba(255, 255, 255, 0.8);
+  padding: 2rem;
+  padding-right: 3rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  max-width: 30%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  padding-right: 4rem;
+}
+
+ul li {
+  margin-bottom: 2rem;
+}
+
+.signUp-form {
+  padding: 3rem;
+  color: #3f3f3f;
+  padding-right: 0rem;
+}
+
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  border-radius: 5px;
+  border: 2px solid rgba(131, 131, 131, 0.233);
+}
+
+.form-control:focus {
+  outline: none;
+  border: 2px solid #735fcd;
+}
+
+.form-group label {
+  font-weight: 500;
+  font-size: .9rem;
+}
+
+.label-check {
+  font-size: .7rem !important;
+  color: #6d6d6d;
+}
+
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+
+}
+
+.label-check {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  display: block;
+  padding: 1rem;
+  width: 100%;
+  background-color: #735FCD;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  font-size: .9rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn:hover {
+  background-color: #5b42c9;
+}
+
+.btn:focus {
+  outline: none;
+  background-color: #4b32a3;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .signUp-info {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .container {
+    justify-content: center;
+  }
+
+  .signUp-form {
+    padding: 0;
+  }
+
+
+}
