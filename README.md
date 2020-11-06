@@ -1,6 +1,6 @@
 # UiDesignDaily
 Desktop View
-![alt text](./sign-up.png)
+![alt text](./SignUpForm/sign-up.png)
 
 Mobile View
-![alt text](./sign-up_mobile.png)
+![alt text](./SignUpForm/sign-up_mobile.png)
